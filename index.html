@@ -17,6 +17,13 @@
             <label for="search-terms">Search Term:</label>
             <input type="term" id="searchTerm" placeholder="Search Term">
         </div>
+
+        <select class="form-control" id="numberRecords">
+            <option>1</option>
+            <option>5</option>
+            <option>10</option>
+        </select>
+
         <div class="begin-year-form">
             <label for="start-year">Start Year: (optional)</label>
             <input type="year" id="startYear" placeholder="Start Year">
@@ -31,6 +38,11 @@
         <button type="submit" class="btn btn-default" id="search">Search</button>
         <button type="clear" class="btn btn-default" id="clear">Clear Results</button>
     </form>
+
+    <div class="page-header">
+        <h2>Top Articles</h2>
+    </div>
+    <div id="resultsHere"></div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
         crossorigin="anonymous"></script>

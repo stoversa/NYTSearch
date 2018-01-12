@@ -1,10 +1,12 @@
 $("#search").on("click", function() {
     event.preventDefault();
     var searchTerm = $("#searchTerm").val();
-    console.log("The search term is: " + searchTerm);
+    var startYear = $("#startYear").val();
+    var endYear = $("#endYear").val();
+
 });
 
 $("#clear").on("click", function() {
-    // alert("This worked!");
+    $("resultsHere").empty();
 });
 
