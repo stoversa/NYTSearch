@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <!-- Latest compiled and minified CSS -->
+    <title>New York Times Search</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
 </head>
@@ -15,21 +15,26 @@
     <form>
         <div class="search-form">
             <label for="search-terms">Search Term:</label>
-            <input type="term"  id="searchTerm" placeholder="Search Term">
+            <input type="term" id="searchTerm" placeholder="Search Term">
         </div>
         <div class="begin-year-form">
-                <label for="start-year">Start Year: (optional)</label>
-                <input type="year"  id="startYear" placeholder="Start Year">
-            </div>
-
-            <div class="end-year-form">
-                    <label for="end-year">End Year: (optional)</label>
-                    <input type="year"  id="endYear" placeholder="End Year">
-                </div>
-        
+            <label for="start-year">Start Year: (optional)</label>
+            <input type="year" id="startYear" placeholder="Start Year">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+
+        <div class="end-year-form">
+            <label for="end-year">End Year: (optional)</label>
+            <input type="year" id="endYear" placeholder="End Year">
+        </div>
+
+        </div>
+        <button type="submit" class="btn btn-default" id="search">Search</button>
+        <button type="clear" class="btn btn-default" id="clear">Clear Results</button>
     </form>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/script.js"></script>
 </body>
 
 </html>
