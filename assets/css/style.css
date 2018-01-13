@@ -1,0 +1,29 @@
+#banner {
+    background-color: rgb(2, 2, 71);
+    color: white;
+    text-align: center;
+}
+
+.page-header {
+    background-color: #21263a;
+    color: white;
+}
+
+form {
+    border: 2px solid #21263a;
+    padding: 5px;
+}
+
+#searchTerm, #numberRecords, #startYear, #endYear {
+    width: 99%;
+    margin: 5px;
+}
+
+#search, #clear {
+    background-color: #21263a;
+    color: white;
+}
+
+.page-header {
+    margin-bottom: 0;
+}
